@@ -1,2 +1,9 @@
 # Cat-Face-Recognition
 Machine Learning Project, based on pytorch &amp; AlexNet
+
+This problem is a regression problem. The task is to input a cat picture to identify the cat's eyes, mouth and ears. There are two detection points for each eye and mouth, and three detection points for each ear. It belongs to supervised learning. Each picture has a corresponding label. The model adjusts parameters according to the label, and then learns the expected results. There are 9 identified points, and each point is composed of X Y two-dimensional coordinates, that is, a total of 18 data, so each output prediction result is an 18 dimensional vector.
+![image](https://user-images.githubusercontent.com/95112515/183843070-b8855f34-2157-40a4-ae8b-38e456271e26.png)
+
+Datasets address:
+
+
